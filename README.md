@@ -16,9 +16,7 @@ Proyek ini merupakan implementasi machine learning untuk memprediksi harga saham
 | `predictive.ipynb`      | Notebook utama yang memuat EDA, preprocessing, dan modeling LSTM                             |
 | `predictive.py`         | Versi Python script dari notebook untuk kebutuhan production atau pipeline                   |
 | `laporan.md`            | Laporan lengkap proyek sesuai format submission yang mencakup domain, modeling, dan evaluasi |
-| `bbri_data.csv`         | Dataset harga saham harian BBRI dari Yahoo Finance                                           |
-| `bbri_lstm_model.keras` | File model LSTM hasil pelatihan                                                              |
-| `bbri_scaler.save`      | Scaler yang digunakan untuk normalisasi data (disimpan dengan `joblib`)                      |
+| `stock_price.csv`       | Dataset harga saham harian BBRI dari Yahoo Finance                                           |
 
 ---
 
@@ -34,7 +32,7 @@ pip install yfinance pandas numpy scikit-learn matplotlib seaborn tensorflow job
 
 ### Langkah 1: Unduh Dataset
 
-Dataset otomatis diunduh dari Yahoo Finance menggunakan `yfinance`. Anda juga dapat langsung menggunakan file `bbri_data.csv` yang sudah disimpan.
+Dataset otomatis diunduh dari Yahoo Finance menggunakan `yfinance`. Anda juga dapat langsung menggunakan file `stock_price.csv` yang sudah disimpan.
 
 ### Langkah 2: Jalankan Notebook
 
