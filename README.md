@@ -1,15 +1,15 @@
-# 🧠 Predictive Analysis of BBRI Stock Prices Using LSTM
+# Predictive Analysis of BBRI Stock Prices Using LSTM
 
 Proyek ini merupakan implementasi machine learning untuk memprediksi harga saham harian PT Bank Rakyat Indonesia Tbk (BBRI.JK) menggunakan pendekatan time series berbasis deep learning (LSTM). Model ini dibangun untuk membantu investor memahami pola tren harga dan membuat keputusan lebih terinformasi.
 
-> 📊 Domain: Finance
-> 🛠 Pendekatan: Regresi Time Series (LSTM)
-> 📟 Data: Yahoo Finance (BBRI.JK) 2018–2025
-> 📦 Tools: Python, TensorFlow, Scikit-learn, YFinance, Matplotlib
+> Domain: Finance
+> Pendekatan: Regresi Time Series (LSTM)
+> Data: Yahoo Finance (BBRI.JK) 2018–2025
+> Tools: Python, TensorFlow, Scikit-learn, YFinance, Matplotlib
 
 ---
 
-## 📁 File Repositori
+## File Repositori
 
 | File                    | Deskripsi                                                                                    |
 | ----------------------- | -------------------------------------------------------------------------------------------- |
@@ -22,9 +22,9 @@ Proyek ini merupakan implementasi machine learning untuk memprediksi harga saham
 
 ---
 
-## 🚀 Cara Menjalankan Proyek
+## Cara Menjalankan Proyek
 
-### 📈 Prasyarat
+### Prasyarat
 
 Pastikan Anda telah menginstal library berikut:
 
@@ -32,11 +32,11 @@ Pastikan Anda telah menginstal library berikut:
 pip install yfinance pandas numpy scikit-learn matplotlib seaborn tensorflow joblib
 ```
 
-### 📅 Langkah 1: Unduh Dataset
+### Langkah 1: Unduh Dataset
 
 Dataset otomatis diunduh dari Yahoo Finance menggunakan `yfinance`. Anda juga dapat langsung menggunakan file `bbri_data.csv` yang sudah disimpan.
 
-### ▶️ Langkah 2: Jalankan Notebook
+### Langkah 2: Jalankan Notebook
 
 Buka file `predictive.ipynb` di Google Colab atau Jupyter Notebook untuk menjalankan semua tahapan:
 
@@ -53,7 +53,7 @@ python predictive.py
 
 ---
 
-## 🧠 Model Arsitektur
+## Model Arsitektur
 
 Model LSTM terdiri dari:
 
@@ -66,7 +66,7 @@ Pelatihan dilakukan selama 100 epoch dengan early stopping dan validasi time-ser
 
 ---
 
-## 📊 Hasil Evaluasi
+## Hasil Evaluasi
 
 | Metrik | Nilai  |
 | ------ | ------ |
@@ -78,20 +78,11 @@ Model menunjukkan performa yang sangat baik dalam memprediksi harga penutupan sa
 
 ---
 
-## 📚 Referensi
+## Referensi
 
 \[1] Zhang, Y., Aggarwal, C. C., & Qi, G. J. (2020). *Stock Price Prediction via Discovering Multi-Frequency Trading Patterns*. KDD 2020.
 
 ---
 
-## 👤 Penulis
-
+## Penulis
 **Risqie Nur Salsabila**
-Data Science & Machine Learning Enthusiast
-📧 [risqie@example.com](mailto:risqie@example.com) | 💼 [LinkedIn](https://linkedin.com/in/risqienursalsabila)
-
----
-
-## 📄 Lisensi
-
-Proyek ini berada di bawah lisensi MIT — silakan gunakan dan modifikasi sesuai kebutuhan.
